@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+
+    --branco: #f3eee5;
+    --verde: #738578;
+    --cinza: #5b5f62;
+    --bege: #c5aa96;
+    --marrom: #90796d;
+    --preto: #292929;
+
+
+}
+
+* {
+    font-family: "Outfit", sans-serif ;
+    scrollbar-width: thin;
+    text-decoration: none;
+}
+
+.container {
+    background: var(--braco);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: var(--verde);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container .navbar-brand {
+    font-weight: 600;
+    font-size: 23px;
+    color: var(--branco);
+}
+
+.navbar-nav .nav-link {
+    color: var(--branco);
+    font-size: 18px;
+    margin-left: 1rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #cec7c1;
+}
+
+header {
+    background: linear-gradient(to right, #90796d, #f3eee5);
+    color: var(--preto);
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.container .btn-primary {
+    background-color: var(--verde);
+    color: var(--preto);
+    border: none;
+    transition: 0.3s;
+}
+
+.container .btn-primary:hover {
+    background-color: #899c8e;
+}
+
+.img-fluid {
+    box-shadow: 10px 5px 5px #00000018;
+}
+
+section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--preto);
+}
+
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #FEC1D0;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(92, 32, 40, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #AF5466;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #5C2028;
+}
+
+.bg-image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #E1949C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+section {
+    background: var(--branco);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+footer {
+    background-color: #5C2028;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+#contato {
+    background-color: #C47588;
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+#contato i {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.swiper .swiper-slide {
+    background-color: #E1949C;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.swiper-pagination-bullet-active {
+    background: #5C2028;
+}
